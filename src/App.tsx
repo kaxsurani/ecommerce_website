@@ -1,5 +1,7 @@
+import BannerSection from "./components/BannerSection"
 import Category from "./components/Category"
-import FeatureSactionFruits from "./components/FeatureSactionFruits"
+import FeatureSactionBreakfast from "./components/FeatureSectionBreakfast"
+import FeatureSactionFruits from "./components/FeatureSectionFruits"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 
@@ -10,6 +12,8 @@ const App = () => {
       <Hero/>
       <Category/>
       <FeatureSactionFruits/>
+      <FeatureSactionBreakfast/>
+      <BannerSection/>
     </main>
   )
 }
