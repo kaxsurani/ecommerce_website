@@ -8,7 +8,7 @@ interface propsType {
 
 const ProductCard: React.FC<propsType> = ({ img, name, price }) => {
   return (
-    <div className="border border-gray-200 hover:border-gray-300 hover:scale-105 transition-transform rounded-lg relative">
+    <div className="border border-gray-200 hover:border-gray-300 hover:scale-125 cursor-pointer transition-transform rounded-lg relative">
         <img className="w-72 h-56" src={img} alt={name} />
 
     <div className="space-y-2 relative p-4">

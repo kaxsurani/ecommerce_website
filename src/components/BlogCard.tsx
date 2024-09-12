@@ -8,7 +8,7 @@ interface propsType{
 const BlogCard:React.FC<propsType> = ({img,title,comment,date}) => {
   return (
     <div className="space-y-4">
-        <img className="rounded-lg hover:scale-105 transition-transform" src={img} alt="post" />
+        <img className="rounded-lg hover:scale-125 cursor-pointer transition-transform" src={img} alt="post" />
         <div className="text-accent font-medium">
             <span>{date} / </span>
             <span>{comment} Comments</span>
