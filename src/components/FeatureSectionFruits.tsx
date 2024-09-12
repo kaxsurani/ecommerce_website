@@ -2,7 +2,7 @@ import ProductCard from "./ProductCard";
 
 const data = [
     { id: 0, img: "kiwi.jpg", name: "Dried Mango", price: "$500"},
-    { id: 1, img: "chips2.png", name: "Crunchy Crisps", price: "$300"},
+    { id: 1, img: "chips.jpg", name: "Crunchy Crisps", price: "$300"},
     { id: 2, img: "banana.jpg", name: "Jewel Carnberries", price: "$200"},
     { id: 4, img: "reddate.png", name: "Almond Organic", price: "$100"},
 ];
